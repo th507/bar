@@ -1,0 +1,22 @@
+{
+  "name": "@th507/bar",
+  "version": "0.0.0",
+  "description": "A test module with simple dependency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th507/bar.git"
+  },
+  "author": "Jingwei \"John\" Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/th507/bar/issues"
+  },
+  "homepage": "https://github.com/th507/bar#readme",
+  "dependencies": {
+    "@th507/foo": "^2.0.0"
+  }
+}
